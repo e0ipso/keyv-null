@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/config-chain/testSuite/broken.json
+.*/node_modules/findup/testSuite/fixture/.*
+.*/node_modules/npmconf/testSuite/fixtures/.*
+
+[include]
+
+[libs]
+
+[options]
+emoji=true
+module.ignore_non_literal_requires=true
+
+[lints]
