@@ -21,19 +21,14 @@
 npm install keyv-null
 </code></pre>
 <h2 id="features">Features</h2>
-<p>This module is based on the <a href="https://www.npmjs.com/package/tiny-lru"><code>tiny-lru</code></a>
-module. This is one of the <a href="https://github.com/dominictarr/bench-lru#results">best performing libraries for LRU storages</a>.</p>
+<p>This module is useful when you want to skip caching. You can use `KeyvNull` in your local development and swap it out in production. This will allow you to keep the same objects without actually caching.</p>
 <h2 id="usage">Usage</h2>
 <p>Create your Keyv object by executing:</p>
 
 ```js
-const options = {
-  max: 1000,
-  notify: false,
-  ttl: 0,
-  expire: 0,
-};
-const keyvNull = new KeyvNull(options);
+const keyv = process.env.NODE_ENV === 'production'
+  ? new KeyvLru(options)
+  : new KeyvNull(options);
 ```
 <p>See <a href="https://www.npmjs.com/package/tiny-lru"><code>tiny-lru</code></a> to learn about the
 available options.</p>
