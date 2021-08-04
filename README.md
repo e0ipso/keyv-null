@@ -1,4 +1,4 @@
-<h1 id="keyv-null-img-align-right-src-logo-svg-alt-keyv-logo-title-keyv-logo-width-100-">Keyv - LRU <img align="right" src="./logo.svg" alt="Keyv logo" title="Keyv logo" width="100"></h1>
+<h1 id="keyv-null-img-align-right-src-logo-svg-alt-keyv-logo-title-keyv-logo-width-100-">Keyv - Null <img align="right" src="./logo.svg" alt="Keyv logo" title="Keyv logo" width="100"></h1>
 <p>This project is part of the <a href="https://www.npmjs.com/package/keyv">Keyv</a> suite.</p>
 <!-- toc -->
 <ul>
