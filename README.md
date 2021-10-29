@@ -14,7 +14,7 @@
 <!-- tocstop -->
 <p><a href="https://travis-ci.org/e0ipso/keyv-null/"><img src="https://img.shields.io/travis/e0ipso/keyv-null.svg?style=flat-square" alt="Travis"></a> <a href="https://coveralls.io/github/e0ipso/keyv-null/"><img src="https://img.shields.io/coveralls/github/e0ipso/keyv-null.svg?style=flat-square" alt="Coverage"></a></p>
 <h2 id="installation">Installation</h2>
-<p>In order to use LRU as your store in Keyv you will need to:</p>
+<p>In order to use Keyv NULL as your store in Keyv you will need to:</p>
 <h3 id="install">Install</h3>
 <p>Install this module in your project:</p>
 <pre><code>
@@ -30,8 +30,6 @@ const keyv = process.env.NODE_ENV === 'production'
   ? new KeyvLru(options)
   : new KeyvNull(options);
 ```
-<p>See <a href="https://www.npmjs.com/package/tiny-lru"><code>tiny-lru</code></a> to learn about the
-available options.</p>
 <h2 id="contributors">Contributors</h2>
 <details>
 <summary><strong>Contributors</strong></summary><br>
